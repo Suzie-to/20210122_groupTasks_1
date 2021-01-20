@@ -1,1 +1,1 @@
-# group-work-No-6
+# group-work:6. Fahrenheit to Celcius Conversion
