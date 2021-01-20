@@ -13,5 +13,6 @@ int main(){
        F = 32 + (9/5*C);
        printf("\n%d C | %d F\n", C, F);
        C+=5; 
+       //chaange//
     }
 }
