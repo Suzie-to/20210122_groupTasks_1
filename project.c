@@ -1,14 +1,10 @@
 #include <stdio.h>
-
-int main(void)
-{
-    float celzii = 0;
-    float farenh = 0;
-    printf(" | Celzii\t|\tFarenhait|\n");
-    for (celzii = -50; celzii <= 150; celzii += 5)
-    {
-        farenh = celzii * 9 / 5 + 32;
-        printf("\n | %.2f\t|\t%.2f |\n", celzii, farenh);
+int main(){
+    float c, f;
+    printf("Celsius \tFahrenheit\n");
+    for(c=-50;c<=150;c+=5){
+        f=c*9/5+32;
+        printf("%.2f\t\t%.2f\n",c,f);
     }
     return 0;
 }
