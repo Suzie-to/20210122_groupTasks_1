@@ -1,8 +1,10 @@
 #include <stdio.h>
-
+/* Напишете програма, която трябва да отпечата таблица за преобразуване от Целзий във Фаренхайт,
+ от -50 до +150 градуса по Целзий, на стъпки от 5 градуса. Температурата по целзий се изчислява 
+ по формулата 5 * (фаренхаит – 32)/9.*/
 int main(void)
 {
-    float celsius;
+    float celsius = 0;
     float fahrenheit = 0;
     printf("-----------------------------------");
     printf("\n   Celsius            Fahrenheit\n");
@@ -10,7 +12,8 @@ int main(void)
     {
         printf("-----------------------------------");
         fahrenheit = (celsius * 9 / 5) + 32;
-        printf("\n | %6.2f\370C\t |\t%6.2f\370F |\n", celsius, fahrenheit);
+        printf("\n | %6.2f%cC\t |\t%6.2f%cF |\n", celsius, 248, fahrenheit, 248);
     }
+    printf("-----------------------------------");
     return 0;
 }
